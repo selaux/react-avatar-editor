@@ -646,6 +646,7 @@ class AvatarEditor extends React.Component {
 
   render() {
     const {
+      disableBoundaryChecks,
       scale,
       rotate,
       image,
